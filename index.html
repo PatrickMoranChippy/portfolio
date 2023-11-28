@@ -84,8 +84,24 @@
             <h2>get in touch</h2>
             <div class="contactContainer">
                 <h3>looking to work together? enter your details below to send an enquiry</h3>
-                <p>name</p>
-                
+                <form action="data.js" method="post">
+                    <label for="name">name:</label>
+                    <br>
+                    <input type="text" name="enquiry" id="name" required>
+                    <br>
+                    <br>
+                    <label for="email">email:</label>
+                    <br>
+                    <input type="text" name="enquiry" id="email" required>
+                    <br>
+                    <br>
+                    <label for="message">message:</label>
+                    <br>
+                    <textarea name="enquiry" id="message" cols="30" rows="10" required></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="submit">
+                </form>
             </div>
         </div>
     </main>
