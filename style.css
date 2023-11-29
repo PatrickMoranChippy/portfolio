@@ -1,0 +1,13 @@
+/*Universal styles*/
+html {
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+    color: antiquewhite;
+    background-color: #404040;
+}
+
+.pageTitle {
+    font-size: 3rem;
+    font-weight: 400;
+    color: antiquewhite;
+}
