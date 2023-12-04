@@ -6,8 +6,97 @@ html {
     background-color: #404040;
 }
 
+body {
+    margin: 0;
+}
+
 .pageTitle {
     font-size: 3rem;
     font-weight: 400;
-    color: antiquewhite;
+    color: #404040;
+    height: 6.25rem;
+    width: 10rem;
+    margin-left: 5%;
+    display: inline;
+}
+
+#headerID {
+    text-decoration: none;
+    width: 50%;
+}
+
+.headerContainer {
+    background-color: #e0c098;
+    color: #404040;
+    height: 9.375rem;
+    width: 100%;
+    position: fixed; top: 0;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    
+}
+
+.navigation {
+    display: inline;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    gap: 10%;
+    font-size: 1.5rem;
+    list-style-type: none;
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    transition: transform .2s;
+    color: #404040;
+}
+
+.navigation a:hover {
+    transform: scale(1.2);
+}
+
+main {
+    padding-left: 5%;
+}
+
+.aboutSection {
+    padding-top: 10rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+}
+
+.aboutContainer img {
+    border-radius: 15rem;
+    scale: 75%;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.projectsSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
 }
